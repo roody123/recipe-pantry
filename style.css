@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("https://images.unsplash.com/photo-1657143377606-ad2f0b790fc6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #262626;
+}
+
+.input-container {
+  display: flex;
+}
+
+.search {
+  flex: 1;
+  padding: 10px;
+  font-family: "Play", sans-serif;
+}
+
+.dish-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: #e5e5e5;
+  margin: 50px;
+  border-radius: 20px;
+  border: 2px solid #C9C6E3;
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: #5f9ea0;
+}
+
+h2 {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: #262626;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C9C6E3;
+    border-radius: 20%;
+    padding: 30px;
+    width: 200px;
+}
+
+.ingredients,
+ul {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: #262626;
+}
+
+.recipes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #262626;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #262626;
+}
+
+label {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+}
+
+.form-item {
+  padding: 10px;
+}
+
+#btn {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  border: none;
+}
+
+@media all and (max-width: 500px) {
+  label {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
