@@ -23,5 +23,5 @@
 **Запуск проекта локально:**
 1. Склонируйте репозиторий:
 ```
-git clone [https://github.com/roody123/recipe-pantry.git](https://github.com/roody123/recipe-pantry.git)
+git clone https://github.com/roody123/recipe-pantry.git
 ```
